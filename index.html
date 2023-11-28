@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywoards" content=""/>
+    <meta name="deskription" content=""/>
+    <title>Любовь резюме</title>
+    <link rel="stylesheet" href="01_myselectors.css">
+   
+</head>
+
+<body>
+  <div class="container">
+    
+      <div class="info">
+        <img src="Avatar.jpg"  alt="Здесь моя аватарка" class="avatar">
+          <div class="info-text">
+            <h1>Любовь К</h1>
+            <H2>Обо мне</H2>
+            <p>Родилась <strong><em>в Хабаровске</em></strong>, росла <strong><em>быстро</em></strong>, училась <strong><em>хорошо</em></strong>, работаю <strong><em>давно</em></strong>.
+            </p>
+            <p>В театре всю жизнь.</p>
+            <p>Люблю путешествовать, готовить, <em>начинаю программировать.</em></p>
+         </div>
+      </div>
+        
+    <div class="card bg-red">
+          <h2>Мои социальные сети:</h2>
+          <a href="https://web.telegram.org/a/" target="_blank">Telegram</a>
+          <a href="https://ok.ru/profile/129005569387" target="_blank">OK</a>
+          <a href="https://vk.com/lubwanna" target="_blank">VK</a>
+        
+    </div>
+    <div class="card bg-green">
+      <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Шью</li>
+          <li>Вяжу</li>
+          <li>Читаю</li>
+        </ol>
+    </div>
+    
+    <div class="card bg-yellow" >
+      <h2>Опыт работы</h2>
+
+      <table class="table">
+      <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td><a href="https://habdrama.ru/" target="_blank">ХКТД</a></td>
+            <td>Осветитель</td>
+            <td>1989-1990</td>
+        </tr>
+        <tr>
+            <td><a href="https://habdrama.ru/" target="_blank">ХКТД</a></td>
+            <td>Звукорежиссёр</td>
+            <td>1990-1995</td>
+        </tr>
+        <tr>
+            <td>Магазин</td>
+            <td>Продавец</td>
+            <td>1995-1996</td>
+        </tr>
+        <tr>
+            <td>Радио "Олимп"</td>
+            <td>Звукорежиссёр,ведущая</td>
+            <td>1996-2002</td>
+        </tr>
+        <tr>
+            <td><a href="https://habdrama.ru/" target="_blank">ХКТД</a></td>
+            <td>Нач.уч-ка</td>
+            <td>1996-сейчас</td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+<form action="/" class="form">
+   <div class="card bg-red">
+     <h2>Связаться со мной</h2>
+     
+     <div class="form-row">
+
+        <div class="form-group">
+         <label for="name">Ваше имя:</label>
+         <input type="text" id="name" 
+         placeholder="Введите имя">
+        </div>
+
+        <br>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+       <br>
+       <div class="form-group">
+           <label for="message">Ваше сообщение:</label>
+           <br>
+            <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение ..."></textarea>
+      </div>
+      
+   </div>
+
+    <br>
+    <input class="btn" type="submit" value="Отправить!">
+  </form>
+  </div> 
+</body>
+</html>
